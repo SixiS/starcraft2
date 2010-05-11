@@ -6,8 +6,13 @@ html {min-height: 100%;}
 	padding: 0;
 }
 
-a {color: #259086;}
-a:hover {color: #282828;}
+a {
+	color: #fff;
+}
+a:hover {
+	color: #fff;
+	
+}
 
 body {
 	background: #000000;
@@ -68,6 +73,15 @@ h1,h2,h3 {padding-top: 6px; color: #259086; margin-bottom: 4px;}
 	font-size: 1.1em;
  	color:#fff;
 	height:571px;
+	text-align: left;
+}
+
+.left a{
+	text-decoration: none;
+}
+
+.right a{
+	text-decoration: none;
 }
 
 .center {
@@ -78,6 +92,7 @@ h1,h2,h3 {padding-top: 6px; color: #259086; margin-bottom: 4px;}
 	font-size: 1.1em;
  	color:#ffffff;	
 	height:571px;
+	text-align: center;
 }
 
 .right {
@@ -88,6 +103,7 @@ h1,h2,h3 {padding-top: 6px; color: #259086; margin-bottom: 4px;}
 	font-size: 1.1em;
  	color:#fff;
 	height:571px;
+	text-align: right;
 }
 
 .main {	
@@ -103,12 +119,14 @@ color:#ffffff;
 
 .left h1 {
 font-size: 1.8em;
-color:#000000;
+color:#fff;
+margin-bottom: 20px;
 }
 
 .right h1 {
 font-size: 1.8em;
-color:#000000;
+color:#fff;
+margin-bottom: 20px;
 }
 
 .foot {
@@ -144,8 +162,10 @@ margin-right:5px;
 }
 
 #center_box{
+	padding: 20px 0px 0px 0px;
 	margin: 20px;
-	height: 531px;
+	height: 511px;
+	font-size: 18px;
 }
 
 .box{
@@ -168,4 +188,22 @@ margin-right:5px;
 	position: relative;
 	top: -531px;
  	left: 32px;
+	width: 301px;
+}
+
+.ontop-right {
+	position: relative;
+	top: -531px;
+ 	left: 32px;
+	width: 301px;
+}
+
+.ontop-center {
+	position: relative;
+	top: -450px;
+ 	left: 0px;
+}
+
+.tiny{
+	font-size: 8px;
 }
