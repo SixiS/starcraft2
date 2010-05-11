@@ -1,0 +1,171 @@
+
+html {min-height: 100%;}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {color: #259086;}
+a:hover {color: #282828;}
+
+body {
+	background: #000000;
+	color: #282828;
+	font: normal 62.5% Tahoma,sans-serif;
+	padding-top: 2px;
+}
+
+p,code,ul {padding-bottom: 1.2em;}
+
+li {list-style: none;}
+
+h1 {font: normal 1.8em Tahoma,sans-serif;}
+h2 {font: bold 1.4em sans-serif;}
+h3 {font: bold 1em Tahoma,sans-serif;}
+
+form,input {margin: 0; padding: 0; display: inline;}
+
+
+h1,h2,h3 {padding-top: 6px; color: #259086; margin-bottom: 4px;}
+
+
+.clearer {clear: both; font-size: 0;}
+.left {float: left;}
+.right {float: left;}
+
+
+.inner-container {
+	border: 0px solid #000000;
+	background: #222 url('/images/sc2bg.png') no-repeat;
+	font-size: 1.2em;
+	margin: 0px auto;
+	padding: 0px;
+	width: 1100px;
+	height: 570px;
+}
+
+.header {
+	margin: 0px auto;
+	text-align: center;
+	background: #000 url('/images/header.png') no-repeat;
+	width: 661px;
+	height: 250px;
+	padding: 0px;
+	margin: 0px auto 20px auto;
+}
+
+.outer-container {
+	background: #000000 url('/images/bg.gif') repeat;
+	padding-bottom: 0px;	
+}
+
+.left {
+	margin: 0 0 0px 0px;
+	float: left;
+	width: 366px;
+	padding: 0px;
+	font-size: 1.1em;
+ 	color:#fff;
+	height:571px;
+}
+
+.center {
+	margin: 0 0 0px 0px;
+	float: left;
+	padding: 0px;
+	width: 368px;
+	font-size: 1.1em;
+ 	color:#ffffff;	
+	height:571px;
+}
+
+.right {
+	margin: 0 0 0px 0px;
+	float: left;
+	width: 366px;
+	padding: 0px;
+	font-size: 1.1em;
+ 	color:#fff;
+	height:571px;
+}
+
+.main {	
+	height:571px;
+	padding: 0px 0px 0px 0px;
+	width: 1100px;
+}
+
+.center h1 {
+font-size: 1.8em;
+color:#ffffff;
+}
+
+.left h1 {
+font-size: 1.8em;
+color:#000000;
+}
+
+.right h1 {
+font-size: 1.8em;
+color:#000000;
+}
+
+.foot {
+float: right;
+padding-top:155px;
+font-size: 1.0em;
+color:#ffffff;
+margin-right:30px;
+text-align:right
+}
+
+.menu {
+float: left;
+padding-top:150px;
+font-size: 1.0em;
+color:#ffffff;
+margin-left:20px;
+}
+
+.menu img {
+border:0px;
+margin-right:5px;
+}
+
+#left_box{
+	margin: 20px;
+	height: 531px;
+}
+
+#right_box{
+	margin: 20px;
+	height: 531px;
+}
+
+#center_box{
+	margin: 20px;
+	height: 531px;
+}
+
+.box{
+	background-color: #000;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;	
+}
+
+.content{
+	filter:alpha(opacity=100);
+	-moz-opacity: 1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+	color: #fff;
+}
+
+.ontop {
+	position: relative;
+	top: -531px;
+ 	left: 32px;
+}
